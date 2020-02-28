@@ -14,6 +14,29 @@ main {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
+main div {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+main div div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #999;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+main div div .boxes{
+  background-color: #333;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .grid-view {
   display: flex;
   flex-wrap: wrap;
@@ -36,4 +59,23 @@ main {
 
 header h1 {
   text-align: center;
+}
+
+header p {
+  text-align: center;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+header p Link{
+  text-decoration: none;
+}
+
+.search-form{
+  background-color: #333;
+  padding: 2rem;
+}
+
+.search input{
+  padding: .5rem 1rem;
 }
